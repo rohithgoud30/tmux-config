@@ -23,41 +23,19 @@ My personal tmux configuration for macOS.
    ```
 
 3. Reload tmux (if already running):
+   ```bash
+   tmux source-file ~/.tmux.conf
    ```
-   Ctrl+a then r
-   ```
 
-## Features
+## Cheatsheet
 
-- **Prefix key**: `Ctrl+a` (instead of default `Ctrl+b`)
-- **Mouse support**: Enabled for easy pane selection and resizing
-- **256-color support**: Full color terminal
-- **Custom theme**: Blue/cyan color scheme with status bar
-- **Pane navigation**: Fn + Arrow keys for intuitive pane movement
-- **Window reordering**: Ctrl + Shift + Arrow keys
-- **Synchronize panes**: Toggle with `Ctrl+a y`
-- **Easy config reload**: `Ctrl+a r`
-
-## Key Bindings
-
-See [CHEATSHEET.md](CHEATSHEET.md) for a complete reference of all key bindings and CLI commands.
+![Tmux Cheat Sheet](cheatsheet.png)
 
 ## Requirements
 
 - macOS (uses Fn + Arrow keys which map to Home/End/PageUp/PageDown)
 - tmux 3.0+
 
-## Status Bar
+## Customization
 
-The status bar shows:
-
-- Hostname with computer emoji
-- Current session name
-- Current time
-
-Custom colors:
-
-- Active window: Bold blue background
-- Inactive windows: Cyan/green foreground
-- Active pane border: Bright cyan
-- Inactive pane border: Cyan
+You can fork this repository and customize `tmux.conf` to fit your workflow.
